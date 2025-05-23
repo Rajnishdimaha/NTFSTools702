@@ -34,6 +34,6 @@
     
   </dependencies>
   <build>
-    <finalName>MavenProj04</finalName>
+    <finalName>JenkinWebApp</finalName>
   </build>
 </project>
