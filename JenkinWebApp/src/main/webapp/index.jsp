@@ -1,17 +1,27 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head> 
+    <meta charset="UTF-8">
+    <title>Season Display</title>
+    <style>
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        .link-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
 <body>
 
-<h1 style="color: red; text-align: center;">HTML to S communication</h1>
+    <h1>HTML to Servlet Communication</h1>
 
-<br><br>
-<a href="season">Show Season Name</a>
+    <div class="link-container">
+        <a href="season">Show Season Name</a>
+    </div>
 
 </body>
 </html>
